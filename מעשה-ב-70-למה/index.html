@@ -117,6 +117,29 @@ iframe {
 }
 </style>
 <style>.vlog-cover,.entry-image,.meta-media{max-width:640px!important;margin:0 auto!important;overflow:hidden!important}.vlog-cover img,.entry-image img,.meta-media img{max-width:100%!important;height:auto!important;width:100%!important}</style>
+<style id="fix-about-size">
+.vlog-cover, .entry-image, .meta-media, .vlog-single-content .entry-image {
+  max-width: 500px !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+}
+.vlog-cover img, .entry-image img, .meta-media img {
+  max-width: 100% !important;
+  height: auto !important;
+  width: 100% !important;
+}
+div[style*="max-width:640px"] {
+  max-width: 500px !important;
+}
+iframe {
+  max-width: 500px !important;
+}
+.col-lg-8 {
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  float: none !important;
+}
+</style>
 </head>
 <body class="rtl">
 <header class="vlog-site-header vlog-header-shadow layout-2 hidden-xs hidden-sm" id="header">
